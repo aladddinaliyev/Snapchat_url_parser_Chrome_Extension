@@ -1,0 +1,22 @@
+{
+  "name": "my-extenyion",
+  "version": "1.0.0",
+  "description": "Snapchat extension test build",
+  "main": "dist/background.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "clean": "rm -rf dist",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
